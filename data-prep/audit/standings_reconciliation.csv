@@ -1,0 +1,813 @@
+season,team_id,team,metric,source_value,reconstructed_value,passed
+2016,15362,Portland Thorns FC,games_played,20.0,20,True
+2016,15362,Portland Thorns FC,points,41.0,41,True
+2016,15362,Portland Thorns FC,wins,12.0,12,True
+2016,15362,Portland Thorns FC,draws,5.0,5,True
+2016,15362,Portland Thorns FC,losses,3.0,3,True
+2016,15362,Portland Thorns FC,goals_for,35.0,35,True
+2016,15362,Portland Thorns FC,goals_against,19.0,19,True
+2016,15365,Washington Spirit,games_played,20.0,20,True
+2016,15365,Washington Spirit,points,39.0,39,True
+2016,15365,Washington Spirit,wins,12.0,12,True
+2016,15365,Washington Spirit,draws,3.0,3,True
+2016,15365,Washington Spirit,losses,5.0,5,True
+2016,15365,Washington Spirit,goals_for,30.0,30,True
+2016,15365,Washington Spirit,goals_against,21.0,21,True
+2016,15360,Chicago Red Stars,games_played,20.0,20,True
+2016,15360,Chicago Red Stars,points,33.0,33,True
+2016,15360,Chicago Red Stars,wins,9.0,9,True
+2016,15360,Chicago Red Stars,draws,6.0,6,True
+2016,15360,Chicago Red Stars,losses,5.0,5,True
+2016,15360,Chicago Red Stars,goals_for,24.0,24,True
+2016,15360,Chicago Red Stars,goals_against,20.0,20,True
+2016,15366,Western New York Flash,games_played,20.0,20,True
+2016,15366,Western New York Flash,points,32.0,32,True
+2016,15366,Western New York Flash,wins,9.0,9,True
+2016,15366,Western New York Flash,draws,5.0,5,True
+2016,15366,Western New York Flash,losses,6.0,6,True
+2016,15366,Western New York Flash,goals_for,40.0,40,True
+2016,15366,Western New York Flash,goals_against,26.0,26,True
+2016,15363,Seattle Reign FC,games_played,20.0,20,True
+2016,15363,Seattle Reign FC,points,30.0,30,True
+2016,15363,Seattle Reign FC,wins,8.0,8,True
+2016,15363,Seattle Reign FC,draws,6.0,6,True
+2016,15363,Seattle Reign FC,losses,6.0,6,True
+2016,15363,Seattle Reign FC,goals_for,29.0,29,True
+2016,15363,Seattle Reign FC,goals_against,21.0,21,True
+2016,15361,FC Kansas City,games_played,20.0,20,True
+2016,15361,FC Kansas City,points,26.0,26,True
+2016,15361,FC Kansas City,wins,7.0,7,True
+2016,15361,FC Kansas City,draws,5.0,5,True
+2016,15361,FC Kansas City,losses,8.0,8,True
+2016,15361,FC Kansas City,goals_for,18.0,18,True
+2016,15361,FC Kansas City,goals_against,20.0,20,True
+2016,15364,Sky Blue FC,games_played,20.0,20,True
+2016,15364,Sky Blue FC,points,26.0,26,True
+2016,15364,Sky Blue FC,wins,7.0,7,True
+2016,15364,Sky Blue FC,draws,5.0,5,True
+2016,15364,Sky Blue FC,losses,8.0,8,True
+2016,15364,Sky Blue FC,goals_for,24.0,24,True
+2016,15364,Sky Blue FC,goals_against,30.0,30,True
+2016,17346,Houston Dash,games_played,20.0,20,True
+2016,17346,Houston Dash,points,22.0,22,True
+2016,17346,Houston Dash,wins,6.0,6,True
+2016,17346,Houston Dash,draws,4.0,4,True
+2016,17346,Houston Dash,losses,10.0,10,True
+2016,17346,Houston Dash,goals_for,29.0,29,True
+2016,17346,Houston Dash,goals_against,29.0,29,True
+2016,18206,Orlando Pride,games_played,20.0,20,True
+2016,18206,Orlando Pride,points,19.0,19,True
+2016,18206,Orlando Pride,wins,6.0,6,True
+2016,18206,Orlando Pride,draws,1.0,1,True
+2016,18206,Orlando Pride,losses,13.0,13,True
+2016,18206,Orlando Pride,goals_for,20.0,20,True
+2016,18206,Orlando Pride,goals_against,30.0,30,True
+2016,15359,Boston Breakers,games_played,20.0,20,True
+2016,15359,Boston Breakers,points,11.0,11,True
+2016,15359,Boston Breakers,wins,3.0,3,True
+2016,15359,Boston Breakers,draws,2.0,2,True
+2016,15359,Boston Breakers,losses,15.0,15,True
+2016,15359,Boston Breakers,goals_for,14.0,14,True
+2016,15359,Boston Breakers,goals_against,47.0,47,True
+2017,15366,North Carolina Courage,games_played,24.0,24,True
+2017,15366,North Carolina Courage,points,49.0,49,True
+2017,15366,North Carolina Courage,wins,16.0,16,True
+2017,15366,North Carolina Courage,draws,1.0,1,True
+2017,15366,North Carolina Courage,losses,7.0,7,True
+2017,15366,North Carolina Courage,goals_for,38.0,38,True
+2017,15366,North Carolina Courage,goals_against,22.0,22,True
+2017,15362,Portland Thorns FC,games_played,24.0,24,True
+2017,15362,Portland Thorns FC,points,47.0,47,True
+2017,15362,Portland Thorns FC,wins,14.0,14,True
+2017,15362,Portland Thorns FC,draws,5.0,5,True
+2017,15362,Portland Thorns FC,losses,5.0,5,True
+2017,15362,Portland Thorns FC,goals_for,37.0,37,True
+2017,15362,Portland Thorns FC,goals_against,20.0,20,True
+2017,18206,Orlando Pride,games_played,24.0,24,True
+2017,18206,Orlando Pride,points,40.0,40,True
+2017,18206,Orlando Pride,wins,11.0,11,True
+2017,18206,Orlando Pride,draws,7.0,7,True
+2017,18206,Orlando Pride,losses,6.0,6,True
+2017,18206,Orlando Pride,goals_for,45.0,45,True
+2017,18206,Orlando Pride,goals_against,31.0,31,True
+2017,15360,Chicago Red Stars,games_played,24.0,24,True
+2017,15360,Chicago Red Stars,points,39.0,39,True
+2017,15360,Chicago Red Stars,wins,11.0,11,True
+2017,15360,Chicago Red Stars,draws,6.0,6,True
+2017,15360,Chicago Red Stars,losses,7.0,7,True
+2017,15360,Chicago Red Stars,goals_for,33.0,33,True
+2017,15360,Chicago Red Stars,goals_against,30.0,30,True
+2017,15363,Seattle Reign FC,games_played,24.0,24,True
+2017,15363,Seattle Reign FC,points,34.0,34,True
+2017,15363,Seattle Reign FC,wins,9.0,9,True
+2017,15363,Seattle Reign FC,draws,7.0,7,True
+2017,15363,Seattle Reign FC,losses,8.0,8,True
+2017,15363,Seattle Reign FC,goals_for,43.0,43,True
+2017,15363,Seattle Reign FC,goals_against,37.0,37,True
+2017,15364,Sky Blue FC,games_played,24.0,24,True
+2017,15364,Sky Blue FC,points,33.0,33,True
+2017,15364,Sky Blue FC,wins,10.0,10,True
+2017,15364,Sky Blue FC,draws,3.0,3,True
+2017,15364,Sky Blue FC,losses,11.0,11,True
+2017,15364,Sky Blue FC,goals_for,42.0,42,True
+2017,15364,Sky Blue FC,goals_against,51.0,51,True
+2017,15361,FC Kansas City,games_played,24.0,24,True
+2017,15361,FC Kansas City,points,31.0,31,True
+2017,15361,FC Kansas City,wins,8.0,8,True
+2017,15361,FC Kansas City,draws,7.0,7,True
+2017,15361,FC Kansas City,losses,9.0,9,True
+2017,15361,FC Kansas City,goals_for,29.0,29,True
+2017,15361,FC Kansas City,goals_against,31.0,31,True
+2017,17346,Houston Dash,games_played,24.0,24,True
+2017,17346,Houston Dash,points,24.0,24,True
+2017,17346,Houston Dash,wins,7.0,7,True
+2017,17346,Houston Dash,draws,3.0,3,True
+2017,17346,Houston Dash,losses,14.0,14,True
+2017,17346,Houston Dash,goals_for,23.0,23,True
+2017,17346,Houston Dash,goals_against,39.0,39,True
+2017,15359,Boston Breakers,games_played,24.0,24,True
+2017,15359,Boston Breakers,points,19.0,19,True
+2017,15359,Boston Breakers,wins,4.0,4,True
+2017,15359,Boston Breakers,draws,7.0,7,True
+2017,15359,Boston Breakers,losses,13.0,13,True
+2017,15359,Boston Breakers,goals_for,24.0,24,True
+2017,15359,Boston Breakers,goals_against,35.0,35,True
+2017,15365,Washington Spirit,games_played,24.0,24,True
+2017,15365,Washington Spirit,points,19.0,19,True
+2017,15365,Washington Spirit,wins,5.0,5,True
+2017,15365,Washington Spirit,draws,4.0,4,True
+2017,15365,Washington Spirit,losses,15.0,15,True
+2017,15365,Washington Spirit,goals_for,30.0,30,True
+2017,15365,Washington Spirit,goals_against,48.0,48,True
+2018,15366,North Carolina Courage,games_played,24.0,24,True
+2018,15366,North Carolina Courage,points,57.0,57,True
+2018,15366,North Carolina Courage,wins,17.0,17,True
+2018,15366,North Carolina Courage,draws,6.0,6,True
+2018,15366,North Carolina Courage,losses,1.0,1,True
+2018,15366,North Carolina Courage,goals_for,53.0,53,True
+2018,15366,North Carolina Courage,goals_against,17.0,17,True
+2018,15362,Portland Thorns FC,games_played,24.0,24,True
+2018,15362,Portland Thorns FC,points,42.0,42,True
+2018,15362,Portland Thorns FC,wins,12.0,12,True
+2018,15362,Portland Thorns FC,draws,6.0,6,True
+2018,15362,Portland Thorns FC,losses,6.0,6,True
+2018,15362,Portland Thorns FC,goals_for,40.0,40,True
+2018,15362,Portland Thorns FC,goals_against,28.0,28,True
+2018,15363,Seattle Reign FC,games_played,24.0,24,True
+2018,15363,Seattle Reign FC,points,41.0,41,True
+2018,15363,Seattle Reign FC,wins,11.0,11,True
+2018,15363,Seattle Reign FC,draws,8.0,8,True
+2018,15363,Seattle Reign FC,losses,5.0,5,True
+2018,15363,Seattle Reign FC,goals_for,27.0,27,True
+2018,15363,Seattle Reign FC,goals_against,19.0,19,True
+2018,15360,Chicago Red Stars,games_played,24.0,24,True
+2018,15360,Chicago Red Stars,points,37.0,37,True
+2018,15360,Chicago Red Stars,wins,9.0,9,True
+2018,15360,Chicago Red Stars,draws,10.0,10,True
+2018,15360,Chicago Red Stars,losses,5.0,5,True
+2018,15360,Chicago Red Stars,goals_for,38.0,38,True
+2018,15360,Chicago Red Stars,goals_against,28.0,28,True
+2018,19141,Utah Royals,games_played,24.0,24,True
+2018,19141,Utah Royals,points,35.0,35,True
+2018,19141,Utah Royals,wins,9.0,9,True
+2018,19141,Utah Royals,draws,8.0,8,True
+2018,19141,Utah Royals,losses,7.0,7,True
+2018,19141,Utah Royals,goals_for,22.0,22,True
+2018,19141,Utah Royals,goals_against,23.0,23,True
+2018,17346,Houston Dash,games_played,24.0,24,True
+2018,17346,Houston Dash,points,32.0,32,True
+2018,17346,Houston Dash,wins,9.0,9,True
+2018,17346,Houston Dash,draws,5.0,5,True
+2018,17346,Houston Dash,losses,10.0,10,True
+2018,17346,Houston Dash,goals_for,35.0,35,True
+2018,17346,Houston Dash,goals_against,39.0,39,True
+2018,18206,Orlando Pride,games_played,24.0,24,True
+2018,18206,Orlando Pride,points,30.0,30,True
+2018,18206,Orlando Pride,wins,8.0,8,True
+2018,18206,Orlando Pride,draws,6.0,6,True
+2018,18206,Orlando Pride,losses,10.0,10,True
+2018,18206,Orlando Pride,goals_for,30.0,30,True
+2018,18206,Orlando Pride,goals_against,37.0,37,True
+2018,15365,Washington Spirit,games_played,24.0,24,True
+2018,15365,Washington Spirit,points,11.0,11,True
+2018,15365,Washington Spirit,wins,2.0,2,True
+2018,15365,Washington Spirit,draws,5.0,5,True
+2018,15365,Washington Spirit,losses,17.0,17,True
+2018,15365,Washington Spirit,goals_for,12.0,12,True
+2018,15365,Washington Spirit,goals_against,35.0,35,True
+2018,15364,Sky Blue FC,games_played,24.0,24,True
+2018,15364,Sky Blue FC,points,9.0,9,True
+2018,15364,Sky Blue FC,wins,1.0,1,True
+2018,15364,Sky Blue FC,draws,6.0,6,True
+2018,15364,Sky Blue FC,losses,17.0,17,True
+2018,15364,Sky Blue FC,goals_for,21.0,21,True
+2018,15364,Sky Blue FC,goals_against,52.0,52,True
+2019,15366,North Carolina Courage,games_played,24.0,24,True
+2019,15366,North Carolina Courage,points,49.0,49,True
+2019,15366,North Carolina Courage,wins,15.0,15,True
+2019,15366,North Carolina Courage,draws,4.0,4,True
+2019,15366,North Carolina Courage,losses,5.0,5,True
+2019,15366,North Carolina Courage,goals_for,54.0,54,True
+2019,15366,North Carolina Courage,goals_against,23.0,23,True
+2019,15360,Chicago Red Stars,games_played,24.0,24,True
+2019,15360,Chicago Red Stars,points,44.0,44,True
+2019,15360,Chicago Red Stars,wins,14.0,14,True
+2019,15360,Chicago Red Stars,draws,2.0,2,True
+2019,15360,Chicago Red Stars,losses,8.0,8,True
+2019,15360,Chicago Red Stars,goals_for,41.0,41,True
+2019,15360,Chicago Red Stars,goals_against,28.0,28,True
+2019,15362,Portland Thorns FC,games_played,24.0,24,True
+2019,15362,Portland Thorns FC,points,40.0,40,True
+2019,15362,Portland Thorns FC,wins,11.0,11,True
+2019,15362,Portland Thorns FC,draws,7.0,7,True
+2019,15362,Portland Thorns FC,losses,6.0,6,True
+2019,15362,Portland Thorns FC,goals_for,40.0,40,True
+2019,15362,Portland Thorns FC,goals_against,31.0,31,True
+2019,15363,Reign FC,games_played,24.0,24,True
+2019,15363,Reign FC,points,38.0,38,True
+2019,15363,Reign FC,wins,10.0,10,True
+2019,15363,Reign FC,draws,8.0,8,True
+2019,15363,Reign FC,losses,6.0,6,True
+2019,15363,Reign FC,goals_for,27.0,27,True
+2019,15363,Reign FC,goals_against,27.0,27,True
+2019,15365,Washington Spirit,games_played,24.0,24,True
+2019,15365,Washington Spirit,points,34.0,34,True
+2019,15365,Washington Spirit,wins,9.0,9,True
+2019,15365,Washington Spirit,draws,7.0,7,True
+2019,15365,Washington Spirit,losses,8.0,8,True
+2019,15365,Washington Spirit,goals_for,30.0,30,True
+2019,15365,Washington Spirit,goals_against,25.0,25,True
+2019,19141,Utah Royals,games_played,24.0,24,True
+2019,19141,Utah Royals,points,34.0,34,True
+2019,19141,Utah Royals,wins,10.0,10,True
+2019,19141,Utah Royals,draws,4.0,4,True
+2019,19141,Utah Royals,losses,10.0,10,True
+2019,19141,Utah Royals,goals_for,25.0,25,True
+2019,19141,Utah Royals,goals_against,25.0,25,True
+2019,17346,Houston Dash,games_played,24.0,24,True
+2019,17346,Houston Dash,points,26.0,26,True
+2019,17346,Houston Dash,wins,7.0,7,True
+2019,17346,Houston Dash,draws,5.0,5,True
+2019,17346,Houston Dash,losses,12.0,12,True
+2019,17346,Houston Dash,goals_for,21.0,21,True
+2019,17346,Houston Dash,goals_against,36.0,36,True
+2019,15364,Sky Blue FC,games_played,24.0,24,True
+2019,15364,Sky Blue FC,points,20.0,20,True
+2019,15364,Sky Blue FC,wins,5.0,5,True
+2019,15364,Sky Blue FC,draws,5.0,5,True
+2019,15364,Sky Blue FC,losses,14.0,14,True
+2019,15364,Sky Blue FC,goals_for,20.0,20,True
+2019,15364,Sky Blue FC,goals_against,34.0,34,True
+2019,18206,Orlando Pride,games_played,24.0,24,True
+2019,18206,Orlando Pride,points,16.0,16,True
+2019,18206,Orlando Pride,wins,4.0,4,True
+2019,18206,Orlando Pride,draws,4.0,4,True
+2019,18206,Orlando Pride,losses,16.0,16,True
+2019,18206,Orlando Pride,goals_for,24.0,24,True
+2019,18206,Orlando Pride,goals_against,53.0,53,True
+2021,15362,Portland Thorns FC,games_played,24.0,24,True
+2021,15362,Portland Thorns FC,points,44.0,44,True
+2021,15362,Portland Thorns FC,wins,13.0,13,True
+2021,15362,Portland Thorns FC,draws,5.0,5,True
+2021,15362,Portland Thorns FC,losses,6.0,6,True
+2021,15362,Portland Thorns FC,goals_for,33.0,33,True
+2021,15362,Portland Thorns FC,goals_against,17.0,17,True
+2021,15363,OL Reign,games_played,24.0,24,True
+2021,15363,OL Reign,points,42.0,42,True
+2021,15363,OL Reign,wins,13.0,13,True
+2021,15363,OL Reign,draws,3.0,3,True
+2021,15363,OL Reign,losses,8.0,8,True
+2021,15363,OL Reign,goals_for,37.0,37,True
+2021,15363,OL Reign,goals_against,24.0,24,True
+2021,15365,Washington Spirit,games_played,24.0,24,True
+2021,15365,Washington Spirit,points,39.0,39,True
+2021,15365,Washington Spirit,wins,11.0,11,True
+2021,15365,Washington Spirit,draws,6.0,6,True
+2021,15365,Washington Spirit,losses,7.0,7,True
+2021,15365,Washington Spirit,goals_for,29.0,29,True
+2021,15365,Washington Spirit,goals_against,26.0,26,True
+2021,15360,Chicago Red Stars,games_played,24.0,24,True
+2021,15360,Chicago Red Stars,points,38.0,38,True
+2021,15360,Chicago Red Stars,wins,11.0,11,True
+2021,15360,Chicago Red Stars,draws,5.0,5,True
+2021,15360,Chicago Red Stars,losses,8.0,8,True
+2021,15360,Chicago Red Stars,goals_for,28.0,28,True
+2021,15360,Chicago Red Stars,goals_against,28.0,28,True
+2021,15364,Gotham FC,games_played,24.0,24,True
+2021,15364,Gotham FC,points,35.0,35,True
+2021,15364,Gotham FC,wins,8.0,8,True
+2021,15364,Gotham FC,draws,11.0,11,True
+2021,15364,Gotham FC,losses,5.0,5,True
+2021,15364,Gotham FC,goals_for,29.0,29,True
+2021,15364,Gotham FC,goals_against,21.0,21,True
+2021,15366,North Carolina Courage,games_played,24.0,24,True
+2021,15366,North Carolina Courage,points,33.0,33,True
+2021,15366,North Carolina Courage,wins,9.0,9,True
+2021,15366,North Carolina Courage,draws,6.0,6,True
+2021,15366,North Carolina Courage,losses,9.0,9,True
+2021,15366,North Carolina Courage,goals_for,28.0,28,True
+2021,15366,North Carolina Courage,goals_against,23.0,23,True
+2021,17346,Houston Dash,games_played,24.0,24,True
+2021,17346,Houston Dash,points,32.0,32,True
+2021,17346,Houston Dash,wins,9.0,9,True
+2021,17346,Houston Dash,draws,5.0,5,True
+2021,17346,Houston Dash,losses,10.0,10,True
+2021,17346,Houston Dash,goals_for,31.0,31,True
+2021,17346,Houston Dash,goals_against,31.0,31,True
+2021,18206,Orlando Pride,games_played,24.0,24,True
+2021,18206,Orlando Pride,points,28.0,28,True
+2021,18206,Orlando Pride,wins,7.0,7,True
+2021,18206,Orlando Pride,draws,7.0,7,True
+2021,18206,Orlando Pride,losses,10.0,10,True
+2021,18206,Orlando Pride,goals_for,27.0,27,True
+2021,18206,Orlando Pride,goals_against,32.0,32,True
+2021,20905,Racing Louisville FC,games_played,24.0,24,True
+2021,20905,Racing Louisville FC,points,22.0,22,True
+2021,20905,Racing Louisville FC,wins,5.0,5,True
+2021,20905,Racing Louisville FC,draws,7.0,7,True
+2021,20905,Racing Louisville FC,losses,12.0,12,True
+2021,20905,Racing Louisville FC,goals_for,21.0,21,True
+2021,20905,Racing Louisville FC,goals_against,40.0,40,True
+2021,20907,Kansas City NWSL,games_played,24.0,24,True
+2021,20907,Kansas City NWSL,points,16.0,16,True
+2021,20907,Kansas City NWSL,wins,3.0,3,True
+2021,20907,Kansas City NWSL,draws,7.0,7,True
+2021,20907,Kansas City NWSL,losses,14.0,14,True
+2021,20907,Kansas City NWSL,goals_for,15.0,15,True
+2021,20907,Kansas City NWSL,goals_against,36.0,36,True
+2022,15363,OL Reign,games_played,22.0,22,True
+2022,15363,OL Reign,points,40.0,40,True
+2022,15363,OL Reign,wins,11.0,11,True
+2022,15363,OL Reign,draws,7.0,7,True
+2022,15363,OL Reign,losses,4.0,4,True
+2022,15363,OL Reign,goals_for,32.0,32,True
+2022,15363,OL Reign,goals_against,19.0,19,True
+2022,15362,Portland Thorns FC,games_played,22.0,22,True
+2022,15362,Portland Thorns FC,points,39.0,39,True
+2022,15362,Portland Thorns FC,wins,10.0,10,True
+2022,15362,Portland Thorns FC,draws,9.0,9,True
+2022,15362,Portland Thorns FC,losses,3.0,3,True
+2022,15362,Portland Thorns FC,goals_for,49.0,49,True
+2022,15362,Portland Thorns FC,goals_against,24.0,24,True
+2022,21423,San Diego Wave FC,games_played,22.0,22,True
+2022,21423,San Diego Wave FC,points,36.0,36,True
+2022,21423,San Diego Wave FC,wins,10.0,10,True
+2022,21423,San Diego Wave FC,draws,6.0,6,True
+2022,21423,San Diego Wave FC,losses,6.0,6,True
+2022,21423,San Diego Wave FC,goals_for,32.0,32,True
+2022,21423,San Diego Wave FC,goals_against,21.0,21,True
+2022,17346,Houston Dash,games_played,22.0,22,True
+2022,17346,Houston Dash,points,36.0,36,True
+2022,17346,Houston Dash,wins,10.0,10,True
+2022,17346,Houston Dash,draws,6.0,6,True
+2022,17346,Houston Dash,losses,6.0,6,True
+2022,17346,Houston Dash,goals_for,35.0,35,True
+2022,17346,Houston Dash,goals_against,27.0,27,True
+2022,20907,Kansas City Current,games_played,22.0,22,True
+2022,20907,Kansas City Current,points,36.0,36,True
+2022,20907,Kansas City Current,wins,10.0,10,True
+2022,20907,Kansas City Current,draws,6.0,6,True
+2022,20907,Kansas City Current,losses,6.0,6,True
+2022,20907,Kansas City Current,goals_for,29.0,29,True
+2022,20907,Kansas City Current,goals_against,29.0,29,True
+2022,15360,Chicago Red Stars,games_played,22.0,22,True
+2022,15360,Chicago Red Stars,points,33.0,33,True
+2022,15360,Chicago Red Stars,wins,9.0,9,True
+2022,15360,Chicago Red Stars,draws,6.0,6,True
+2022,15360,Chicago Red Stars,losses,7.0,7,True
+2022,15360,Chicago Red Stars,goals_for,34.0,34,True
+2022,15360,Chicago Red Stars,goals_against,28.0,28,True
+2022,15366,North Carolina Courage,games_played,22.0,22,True
+2022,15366,North Carolina Courage,points,32.0,32,True
+2022,15366,North Carolina Courage,wins,9.0,9,True
+2022,15366,North Carolina Courage,draws,5.0,5,True
+2022,15366,North Carolina Courage,losses,8.0,8,True
+2022,15366,North Carolina Courage,goals_for,46.0,46,True
+2022,15366,North Carolina Courage,goals_against,33.0,33,True
+2022,21422,Angel City FC,games_played,22.0,22,True
+2022,21422,Angel City FC,points,29.0,29,True
+2022,21422,Angel City FC,wins,8.0,8,True
+2022,21422,Angel City FC,draws,5.0,5,True
+2022,21422,Angel City FC,losses,9.0,9,True
+2022,21422,Angel City FC,goals_for,23.0,23,True
+2022,21422,Angel City FC,goals_against,27.0,27,True
+2022,20905,Racing Louisville FC,games_played,22.0,22,True
+2022,20905,Racing Louisville FC,points,23.0,23,True
+2022,20905,Racing Louisville FC,wins,5.0,5,True
+2022,20905,Racing Louisville FC,draws,8.0,8,True
+2022,20905,Racing Louisville FC,losses,9.0,9,True
+2022,20905,Racing Louisville FC,goals_for,23.0,23,True
+2022,20905,Racing Louisville FC,goals_against,35.0,35,True
+2022,18206,Orlando Pride,games_played,22.0,22,True
+2022,18206,Orlando Pride,points,22.0,22,True
+2022,18206,Orlando Pride,wins,5.0,5,True
+2022,18206,Orlando Pride,draws,7.0,7,True
+2022,18206,Orlando Pride,losses,10.0,10,True
+2022,18206,Orlando Pride,goals_for,22.0,22,True
+2022,18206,Orlando Pride,goals_against,45.0,45,True
+2022,15365,Washington Spirit,games_played,22.0,22,True
+2022,15365,Washington Spirit,points,19.0,19,True
+2022,15365,Washington Spirit,wins,3.0,3,True
+2022,15365,Washington Spirit,draws,10.0,10,True
+2022,15365,Washington Spirit,losses,9.0,9,True
+2022,15365,Washington Spirit,goals_for,26.0,26,True
+2022,15365,Washington Spirit,goals_against,33.0,33,True
+2022,15364,Gotham FC,games_played,22.0,22,True
+2022,15364,Gotham FC,points,13.0,13,True
+2022,15364,Gotham FC,wins,4.0,4,True
+2022,15364,Gotham FC,draws,1.0,1,True
+2022,15364,Gotham FC,losses,17.0,17,True
+2022,15364,Gotham FC,goals_for,16.0,16,True
+2022,15364,Gotham FC,goals_against,46.0,46,True
+2023,21423,San Diego Wave FC,games_played,22.0,22,True
+2023,21423,San Diego Wave FC,points,37.0,37,True
+2023,21423,San Diego Wave FC,wins,11.0,11,True
+2023,21423,San Diego Wave FC,draws,4.0,4,True
+2023,21423,San Diego Wave FC,losses,7.0,7,True
+2023,21423,San Diego Wave FC,goals_for,31.0,31,True
+2023,21423,San Diego Wave FC,goals_against,22.0,22,True
+2023,15362,Portland Thorns FC,games_played,22.0,22,True
+2023,15362,Portland Thorns FC,points,35.0,35,True
+2023,15362,Portland Thorns FC,wins,10.0,10,True
+2023,15362,Portland Thorns FC,draws,5.0,5,True
+2023,15362,Portland Thorns FC,losses,7.0,7,True
+2023,15362,Portland Thorns FC,goals_for,42.0,42,True
+2023,15362,Portland Thorns FC,goals_against,32.0,32,True
+2023,15366,North Carolina Courage,games_played,22.0,22,True
+2023,15366,North Carolina Courage,points,33.0,33,True
+2023,15366,North Carolina Courage,wins,9.0,9,True
+2023,15366,North Carolina Courage,draws,6.0,6,True
+2023,15366,North Carolina Courage,losses,7.0,7,True
+2023,15366,North Carolina Courage,goals_for,29.0,29,True
+2023,15366,North Carolina Courage,goals_against,22.0,22,True
+2023,15363,OL Reign,games_played,22.0,22,True
+2023,15363,OL Reign,points,32.0,32,True
+2023,15363,OL Reign,wins,9.0,9,True
+2023,15363,OL Reign,draws,5.0,5,True
+2023,15363,OL Reign,losses,8.0,8,True
+2023,15363,OL Reign,goals_for,29.0,29,True
+2023,15363,OL Reign,goals_against,24.0,24,True
+2023,21422,Angel City FC,games_played,22.0,22,True
+2023,21422,Angel City FC,points,31.0,31,True
+2023,21422,Angel City FC,wins,8.0,8,True
+2023,21422,Angel City FC,draws,7.0,7,True
+2023,21422,Angel City FC,losses,7.0,7,True
+2023,21422,Angel City FC,goals_for,31.0,31,True
+2023,21422,Angel City FC,goals_against,30.0,30,True
+2023,15364,Gotham FC,games_played,22.0,22,True
+2023,15364,Gotham FC,points,31.0,31,True
+2023,15364,Gotham FC,wins,8.0,8,True
+2023,15364,Gotham FC,draws,7.0,7,True
+2023,15364,Gotham FC,losses,7.0,7,True
+2023,15364,Gotham FC,goals_for,25.0,25,True
+2023,15364,Gotham FC,goals_against,24.0,24,True
+2023,18206,Orlando Pride,games_played,22.0,22,True
+2023,18206,Orlando Pride,points,31.0,31,True
+2023,18206,Orlando Pride,wins,10.0,10,True
+2023,18206,Orlando Pride,draws,1.0,1,True
+2023,18206,Orlando Pride,losses,11.0,11,True
+2023,18206,Orlando Pride,goals_for,27.0,27,True
+2023,18206,Orlando Pride,goals_against,28.0,28,True
+2023,15365,Washington Spirit,games_played,22.0,22,True
+2023,15365,Washington Spirit,points,30.0,30,True
+2023,15365,Washington Spirit,wins,7.0,7,True
+2023,15365,Washington Spirit,draws,9.0,9,True
+2023,15365,Washington Spirit,losses,6.0,6,True
+2023,15365,Washington Spirit,goals_for,26.0,26,True
+2023,15365,Washington Spirit,goals_against,29.0,29,True
+2023,20905,Racing Louisville FC,games_played,22.0,22,True
+2023,20905,Racing Louisville FC,points,27.0,27,True
+2023,20905,Racing Louisville FC,wins,6.0,6,True
+2023,20905,Racing Louisville FC,draws,9.0,9,True
+2023,20905,Racing Louisville FC,losses,7.0,7,True
+2023,20905,Racing Louisville FC,goals_for,25.0,25,True
+2023,20905,Racing Louisville FC,goals_against,24.0,24,True
+2023,17346,Houston Dash,games_played,22.0,22,True
+2023,17346,Houston Dash,points,26.0,26,True
+2023,17346,Houston Dash,wins,6.0,6,True
+2023,17346,Houston Dash,draws,8.0,8,True
+2023,17346,Houston Dash,losses,8.0,8,True
+2023,17346,Houston Dash,goals_for,16.0,16,True
+2023,17346,Houston Dash,goals_against,18.0,18,True
+2023,20907,Kansas City Current,games_played,22.0,22,True
+2023,20907,Kansas City Current,points,26.0,26,True
+2023,20907,Kansas City Current,wins,8.0,8,True
+2023,20907,Kansas City Current,draws,2.0,2,True
+2023,20907,Kansas City Current,losses,12.0,12,True
+2023,20907,Kansas City Current,goals_for,30.0,30,True
+2023,20907,Kansas City Current,goals_against,36.0,36,True
+2023,15360,Chicago Red Stars,games_played,22.0,22,True
+2023,15360,Chicago Red Stars,points,24.0,24,True
+2023,15360,Chicago Red Stars,wins,7.0,7,True
+2023,15360,Chicago Red Stars,draws,3.0,3,True
+2023,15360,Chicago Red Stars,losses,12.0,12,True
+2023,15360,Chicago Red Stars,goals_for,28.0,28,True
+2023,15360,Chicago Red Stars,goals_against,50.0,50,True
+2024,18206,Orlando Pride,games_played,26.0,26,True
+2024,18206,Orlando Pride,points,60.0,60,True
+2024,18206,Orlando Pride,wins,18.0,18,True
+2024,18206,Orlando Pride,draws,6.0,6,True
+2024,18206,Orlando Pride,losses,2.0,2,True
+2024,18206,Orlando Pride,goals_for,46.0,46,True
+2024,18206,Orlando Pride,goals_against,20.0,20,True
+2024,15365,Washington Spirit,games_played,26.0,26,True
+2024,15365,Washington Spirit,points,56.0,56,True
+2024,15365,Washington Spirit,wins,18.0,18,True
+2024,15365,Washington Spirit,draws,2.0,2,True
+2024,15365,Washington Spirit,losses,6.0,6,True
+2024,15365,Washington Spirit,goals_for,51.0,51,True
+2024,15365,Washington Spirit,goals_against,28.0,28,True
+2024,15364,Gotham FC,games_played,26.0,26,True
+2024,15364,Gotham FC,points,56.0,56,True
+2024,15364,Gotham FC,wins,17.0,17,True
+2024,15364,Gotham FC,draws,5.0,5,True
+2024,15364,Gotham FC,losses,4.0,4,True
+2024,15364,Gotham FC,goals_for,41.0,41,True
+2024,15364,Gotham FC,goals_against,20.0,20,True
+2024,20907,Kansas City Current,games_played,26.0,26,True
+2024,20907,Kansas City Current,points,55.0,55,True
+2024,20907,Kansas City Current,wins,16.0,16,True
+2024,20907,Kansas City Current,draws,7.0,7,True
+2024,20907,Kansas City Current,losses,3.0,3,True
+2024,20907,Kansas City Current,goals_for,57.0,57,True
+2024,20907,Kansas City Current,goals_against,31.0,31,True
+2024,15366,North Carolina Courage,games_played,26.0,26,True
+2024,15366,North Carolina Courage,points,39.0,39,True
+2024,15366,North Carolina Courage,wins,12.0,12,True
+2024,15366,North Carolina Courage,draws,3.0,3,True
+2024,15366,North Carolina Courage,losses,11.0,11,True
+2024,15366,North Carolina Courage,goals_for,34.0,34,True
+2024,15366,North Carolina Courage,goals_against,28.0,28,True
+2024,15362,Portland Thorns FC,games_played,26.0,26,True
+2024,15362,Portland Thorns FC,points,34.0,34,True
+2024,15362,Portland Thorns FC,wins,10.0,10,True
+2024,15362,Portland Thorns FC,draws,4.0,4,True
+2024,15362,Portland Thorns FC,losses,12.0,12,True
+2024,15362,Portland Thorns FC,goals_for,37.0,37,True
+2024,15362,Portland Thorns FC,goals_against,35.0,35,True
+2024,22187,Bay FC,games_played,26.0,26,True
+2024,22187,Bay FC,points,34.0,34,True
+2024,22187,Bay FC,wins,11.0,11,True
+2024,22187,Bay FC,draws,1.0,1,True
+2024,22187,Bay FC,losses,14.0,14,True
+2024,22187,Bay FC,goals_for,31.0,31,True
+2024,22187,Bay FC,goals_against,41.0,41,True
+2024,15360,Chicago Red Stars,games_played,26.0,26,True
+2024,15360,Chicago Red Stars,points,32.0,32,True
+2024,15360,Chicago Red Stars,wins,10.0,10,True
+2024,15360,Chicago Red Stars,draws,2.0,2,True
+2024,15360,Chicago Red Stars,losses,14.0,14,True
+2024,15360,Chicago Red Stars,goals_for,31.0,31,True
+2024,15360,Chicago Red Stars,goals_against,38.0,38,True
+2024,20905,Racing Louisville FC,games_played,26.0,26,True
+2024,20905,Racing Louisville FC,points,28.0,28,True
+2024,20905,Racing Louisville FC,wins,7.0,7,True
+2024,20905,Racing Louisville FC,draws,7.0,7,True
+2024,20905,Racing Louisville FC,losses,12.0,12,True
+2024,20905,Racing Louisville FC,goals_for,33.0,33,True
+2024,20905,Racing Louisville FC,goals_against,39.0,39,True
+2024,21423,San Diego Wave FC,games_played,26.0,26,True
+2024,21423,San Diego Wave FC,points,25.0,25,True
+2024,21423,San Diego Wave FC,wins,6.0,6,True
+2024,21423,San Diego Wave FC,draws,7.0,7,True
+2024,21423,San Diego Wave FC,losses,13.0,13,True
+2024,21423,San Diego Wave FC,goals_for,24.0,24,True
+2024,21423,San Diego Wave FC,goals_against,35.0,35,True
+2024,19141,Utah Royals,games_played,26.0,26,True
+2024,19141,Utah Royals,points,25.0,25,True
+2024,19141,Utah Royals,wins,7.0,7,True
+2024,19141,Utah Royals,draws,4.0,4,True
+2024,19141,Utah Royals,losses,15.0,15,True
+2024,19141,Utah Royals,goals_for,22.0,22,True
+2024,19141,Utah Royals,goals_against,40.0,40,True
+2024,21422,Angel City FC,games_played,26.0,26,True
+2024,21422,Angel City FC,points,24.0,24,True
+2024,21422,Angel City FC,wins,7.0,7,True
+2024,21422,Angel City FC,draws,6.0,6,True
+2024,21422,Angel City FC,losses,13.0,13,True
+2024,21422,Angel City FC,goals_for,29.0,29,True
+2024,21422,Angel City FC,goals_against,42.0,42,True
+2024,15363,Seattle Reign FC,games_played,26.0,26,True
+2024,15363,Seattle Reign FC,points,23.0,23,True
+2024,15363,Seattle Reign FC,wins,6.0,6,True
+2024,15363,Seattle Reign FC,draws,5.0,5,True
+2024,15363,Seattle Reign FC,losses,15.0,15,True
+2024,15363,Seattle Reign FC,goals_for,27.0,27,True
+2024,15363,Seattle Reign FC,goals_against,44.0,44,True
+2024,17346,Houston Dash,games_played,26.0,26,True
+2024,17346,Houston Dash,points,20.0,20,True
+2024,17346,Houston Dash,wins,5.0,5,True
+2024,17346,Houston Dash,draws,5.0,5,True
+2024,17346,Houston Dash,losses,16.0,16,True
+2024,17346,Houston Dash,goals_for,20.0,20,True
+2024,17346,Houston Dash,goals_against,42.0,42,True
+2025,20907,Kansas City Current,games_played,26.0,26,True
+2025,20907,Kansas City Current,points,65.0,65,True
+2025,20907,Kansas City Current,wins,21.0,21,True
+2025,20907,Kansas City Current,draws,2.0,2,True
+2025,20907,Kansas City Current,losses,3.0,3,True
+2025,20907,Kansas City Current,goals_for,49.0,49,True
+2025,20907,Kansas City Current,goals_against,13.0,13,True
+2025,15365,Washington Spirit,games_played,26.0,26,True
+2025,15365,Washington Spirit,points,44.0,44,True
+2025,15365,Washington Spirit,wins,12.0,12,True
+2025,15365,Washington Spirit,draws,8.0,8,True
+2025,15365,Washington Spirit,losses,6.0,6,True
+2025,15365,Washington Spirit,goals_for,42.0,42,True
+2025,15365,Washington Spirit,goals_against,33.0,33,True
+2025,15362,Portland Thorns FC,games_played,26.0,26,True
+2025,15362,Portland Thorns FC,points,40.0,40,True
+2025,15362,Portland Thorns FC,wins,11.0,11,True
+2025,15362,Portland Thorns FC,draws,7.0,7,True
+2025,15362,Portland Thorns FC,losses,8.0,8,True
+2025,15362,Portland Thorns FC,goals_for,36.0,36,True
+2025,15362,Portland Thorns FC,goals_against,29.0,29,True
+2025,18206,Orlando Pride,games_played,26.0,26,True
+2025,18206,Orlando Pride,points,40.0,40,True
+2025,18206,Orlando Pride,wins,11.0,11,True
+2025,18206,Orlando Pride,draws,7.0,7,True
+2025,18206,Orlando Pride,losses,8.0,8,True
+2025,18206,Orlando Pride,goals_for,33.0,33,True
+2025,18206,Orlando Pride,goals_against,27.0,27,True
+2025,15363,Seattle Reign FC,games_played,26.0,26,True
+2025,15363,Seattle Reign FC,points,39.0,39,True
+2025,15363,Seattle Reign FC,wins,10.0,10,True
+2025,15363,Seattle Reign FC,draws,9.0,9,True
+2025,15363,Seattle Reign FC,losses,7.0,7,True
+2025,15363,Seattle Reign FC,goals_for,32.0,32,True
+2025,15363,Seattle Reign FC,goals_against,29.0,29,True
+2025,21423,San Diego Wave FC,games_played,26.0,26,True
+2025,21423,San Diego Wave FC,points,37.0,37,True
+2025,21423,San Diego Wave FC,wins,10.0,10,True
+2025,21423,San Diego Wave FC,draws,7.0,7,True
+2025,21423,San Diego Wave FC,losses,9.0,9,True
+2025,21423,San Diego Wave FC,goals_for,41.0,41,True
+2025,21423,San Diego Wave FC,goals_against,34.0,34,True
+2025,20905,Racing Louisville FC,games_played,26.0,26,True
+2025,20905,Racing Louisville FC,points,37.0,37,True
+2025,20905,Racing Louisville FC,wins,10.0,10,True
+2025,20905,Racing Louisville FC,draws,7.0,7,True
+2025,20905,Racing Louisville FC,losses,9.0,9,True
+2025,20905,Racing Louisville FC,goals_for,35.0,35,True
+2025,20905,Racing Louisville FC,goals_against,38.0,38,True
+2025,15364,Gotham FC,games_played,26.0,26,True
+2025,15364,Gotham FC,points,36.0,36,True
+2025,15364,Gotham FC,wins,9.0,9,True
+2025,15364,Gotham FC,draws,9.0,9,True
+2025,15364,Gotham FC,losses,8.0,8,True
+2025,15364,Gotham FC,goals_for,35.0,35,True
+2025,15364,Gotham FC,goals_against,25.0,25,True
+2025,15366,North Carolina Courage,games_played,26.0,26,True
+2025,15366,North Carolina Courage,points,35.0,35,True
+2025,15366,North Carolina Courage,wins,9.0,9,True
+2025,15366,North Carolina Courage,draws,8.0,8,True
+2025,15366,North Carolina Courage,losses,9.0,9,True
+2025,15366,North Carolina Courage,goals_for,37.0,37,True
+2025,15366,North Carolina Courage,goals_against,39.0,39,True
+2025,17346,Houston Dash,games_played,26.0,26,True
+2025,17346,Houston Dash,points,30.0,30,True
+2025,17346,Houston Dash,wins,8.0,8,True
+2025,17346,Houston Dash,draws,6.0,6,True
+2025,17346,Houston Dash,losses,12.0,12,True
+2025,17346,Houston Dash,goals_for,27.0,27,True
+2025,17346,Houston Dash,goals_against,39.0,39,True
+2025,21422,Angel City FC,games_played,26.0,26,True
+2025,21422,Angel City FC,points,27.0,27,True
+2025,21422,Angel City FC,wins,7.0,7,True
+2025,21422,Angel City FC,draws,6.0,6,True
+2025,21422,Angel City FC,losses,13.0,13,True
+2025,21422,Angel City FC,goals_for,31.0,31,True
+2025,21422,Angel City FC,goals_against,41.0,41,True
+2025,19141,Utah Royals,games_played,26.0,26,True
+2025,19141,Utah Royals,points,25.0,25,True
+2025,19141,Utah Royals,wins,6.0,6,True
+2025,19141,Utah Royals,draws,7.0,7,True
+2025,19141,Utah Royals,losses,13.0,13,True
+2025,19141,Utah Royals,goals_for,28.0,28,True
+2025,19141,Utah Royals,goals_against,42.0,42,True
+2025,22187,Bay FC,games_played,26.0,26,True
+2025,22187,Bay FC,points,20.0,20,True
+2025,22187,Bay FC,wins,4.0,4,True
+2025,22187,Bay FC,draws,8.0,8,True
+2025,22187,Bay FC,losses,14.0,14,True
+2025,22187,Bay FC,goals_for,26.0,26,True
+2025,22187,Bay FC,goals_against,41.0,41,True
+2025,15360,Chicago Stars FC,games_played,26.0,26,True
+2025,15360,Chicago Stars FC,points,20.0,20,True
+2025,15360,Chicago Stars FC,wins,3.0,3,True
+2025,15360,Chicago Stars FC,draws,11.0,11,True
+2025,15360,Chicago Stars FC,losses,12.0,12,True
+2025,15360,Chicago Stars FC,goals_for,32.0,32,True
+2025,15360,Chicago Stars FC,goals_against,54.0,54,True
+2026,15364,Gotham FC,games_played,22.0,22,True
+2026,15364,Gotham FC,points,45.0,45,True
+2026,15364,Gotham FC,wins,13.0,13,True
+2026,15364,Gotham FC,draws,6.0,6,True
+2026,15364,Gotham FC,losses,3.0,3,True
+2026,15364,Gotham FC,goals_for,27.0,27,True
+2026,15364,Gotham FC,goals_against,14.0,14,True
+2026,15365,Washington Spirit,games_played,22.0,22,True
+2026,15365,Washington Spirit,points,40.0,40,True
+2026,15365,Washington Spirit,wins,12.0,12,True
+2026,15365,Washington Spirit,draws,4.0,4,True
+2026,15365,Washington Spirit,losses,6.0,6,True
+2026,15365,Washington Spirit,goals_for,31.0,31,True
+2026,15365,Washington Spirit,goals_against,19.0,19,True
+2026,19141,Utah Royals,games_played,22.0,22,True
+2026,19141,Utah Royals,points,39.0,39,True
+2026,19141,Utah Royals,wins,12.0,12,True
+2026,19141,Utah Royals,draws,3.0,3,True
+2026,19141,Utah Royals,losses,7.0,7,True
+2026,19141,Utah Royals,goals_for,39.0,39,True
+2026,19141,Utah Royals,goals_against,28.0,28,True
+2026,21423,San Diego Wave FC,games_played,22.0,22,True
+2026,21423,San Diego Wave FC,points,39.0,39,True
+2026,21423,San Diego Wave FC,wins,12.0,12,True
+2026,21423,San Diego Wave FC,draws,3.0,3,True
+2026,21423,San Diego Wave FC,losses,7.0,7,True
+2026,21423,San Diego Wave FC,goals_for,32.0,32,True
+2026,21423,San Diego Wave FC,goals_against,25.0,25,True
+2026,15362,Portland Thorns FC,games_played,22.0,22,True
+2026,15362,Portland Thorns FC,points,38.0,38,True
+2026,15362,Portland Thorns FC,wins,11.0,11,True
+2026,15362,Portland Thorns FC,draws,5.0,5,True
+2026,15362,Portland Thorns FC,losses,6.0,6,True
+2026,15362,Portland Thorns FC,goals_for,36.0,36,True
+2026,15362,Portland Thorns FC,goals_against,30.0,30,True
+2026,15366,North Carolina Courage,games_played,22.0,22,True
+2026,15366,North Carolina Courage,points,36.0,36,True
+2026,15366,North Carolina Courage,wins,11.0,11,True
+2026,15366,North Carolina Courage,draws,3.0,3,True
+2026,15366,North Carolina Courage,losses,8.0,8,True
+2026,15366,North Carolina Courage,goals_for,40.0,40,True
+2026,15366,North Carolina Courage,goals_against,33.0,33,True
+2026,20907,Kansas City Current,games_played,22.0,22,True
+2026,20907,Kansas City Current,points,34.0,34,True
+2026,20907,Kansas City Current,wins,10.0,10,True
+2026,20907,Kansas City Current,draws,4.0,4,True
+2026,20907,Kansas City Current,losses,8.0,8,True
+2026,20907,Kansas City Current,goals_for,35.0,35,True
+2026,20907,Kansas City Current,goals_against,31.0,31,True
+2026,15363,Seattle Reign FC,games_played,21.0,21,True
+2026,15363,Seattle Reign FC,points,31.0,31,True
+2026,15363,Seattle Reign FC,wins,9.0,9,True
+2026,15363,Seattle Reign FC,draws,4.0,4,True
+2026,15363,Seattle Reign FC,losses,8.0,8,True
+2026,15363,Seattle Reign FC,goals_for,26.0,26,True
+2026,15363,Seattle Reign FC,goals_against,26.0,26,True
+2026,21422,Angel City FC,games_played,21.0,21,True
+2026,21422,Angel City FC,points,29.0,29,True
+2026,21422,Angel City FC,wins,8.0,8,True
+2026,21422,Angel City FC,draws,5.0,5,True
+2026,21422,Angel City FC,losses,8.0,8,True
+2026,21422,Angel City FC,goals_for,32.0,32,True
+2026,21422,Angel City FC,goals_against,24.0,24,True
+2026,131563,Denver Summit FC,games_played,21.0,21,True
+2026,131563,Denver Summit FC,points,27.0,27,True
+2026,131563,Denver Summit FC,wins,7.0,7,True
+2026,131563,Denver Summit FC,draws,6.0,6,True
+2026,131563,Denver Summit FC,losses,8.0,8,True
+2026,131563,Denver Summit FC,goals_for,31.0,31,True
+2026,131563,Denver Summit FC,goals_against,27.0,27,True
+2026,17346,Houston Dash,games_played,22.0,22,True
+2026,17346,Houston Dash,points,26.0,26,True
+2026,17346,Houston Dash,wins,7.0,7,True
+2026,17346,Houston Dash,draws,5.0,5,True
+2026,17346,Houston Dash,losses,10.0,10,True
+2026,17346,Houston Dash,goals_for,28.0,28,True
+2026,17346,Houston Dash,goals_against,30.0,30,True
+2026,18206,Orlando Pride,games_played,22.0,22,True
+2026,18206,Orlando Pride,points,26.0,26,True
+2026,18206,Orlando Pride,wins,8.0,8,True
+2026,18206,Orlando Pride,draws,2.0,2,True
+2026,18206,Orlando Pride,losses,12.0,12,True
+2026,18206,Orlando Pride,goals_for,26.0,26,True
+2026,18206,Orlando Pride,goals_against,33.0,33,True
+2026,20905,Racing Louisville FC,games_played,22.0,22,True
+2026,20905,Racing Louisville FC,points,23.0,23,True
+2026,20905,Racing Louisville FC,wins,7.0,7,True
+2026,20905,Racing Louisville FC,draws,2.0,2,True
+2026,20905,Racing Louisville FC,losses,13.0,13,True
+2026,20905,Racing Louisville FC,goals_for,34.0,34,True
+2026,20905,Racing Louisville FC,goals_against,43.0,43,True
+2026,22187,Bay FC,games_played,21.0,21,True
+2026,22187,Bay FC,points,22.0,22,True
+2026,22187,Bay FC,wins,6.0,6,True
+2026,22187,Bay FC,draws,4.0,4,True
+2026,22187,Bay FC,losses,11.0,11,True
+2026,22187,Bay FC,goals_for,21.0,21,True
+2026,22187,Bay FC,goals_against,28.0,28,True
+2026,131562,Boston Legacy FC,games_played,22.0,22,True
+2026,131562,Boston Legacy FC,points,20.0,20,True
+2026,131562,Boston Legacy FC,wins,5.0,5,True
+2026,131562,Boston Legacy FC,draws,5.0,5,True
+2026,131562,Boston Legacy FC,losses,12.0,12,True
+2026,131562,Boston Legacy FC,goals_for,26.0,26,True
+2026,131562,Boston Legacy FC,goals_against,39.0,39,True
+2026,15360,Chicago Stars FC,games_played,22.0,22,True
+2026,15360,Chicago Stars FC,points,16.0,16,True
+2026,15360,Chicago Stars FC,wins,5.0,5,True
+2026,15360,Chicago Stars FC,draws,1.0,1,True
+2026,15360,Chicago Stars FC,losses,16.0,16,True
+2026,15360,Chicago Stars FC,goals_for,13.0,13,True
+2026,15360,Chicago Stars FC,goals_against,47.0,47,True

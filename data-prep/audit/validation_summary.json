@@ -1,0 +1,11 @@
+{
+  "as_of_eastern": "2026-09-01",
+  "historical_rows": 500,
+  "distinct_historical_team_seasons": 100,
+  "train_rows": 430,
+  "test_rows": 70,
+  "current_rows": 16,
+  "current_completed_matches": 174,
+  "reconciliation_checks": 812,
+  "all_checks_passed": true
+}

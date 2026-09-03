@@ -1,0 +1,35 @@
+{
+  "matches": [
+    {
+      "match_id": "445438",
+      "corrected_values": {"match_date": "2016-08-18", "result_available_date": "2016-08-18", "home_goals": 1, "away_goals": 2, "completed": true},
+      "reason": "ESPN retains the original May postponed fixture. Replace date and score with the completed August makeup match; original kickoff remains in source_kickoff_utc for audit only.",
+      "source_url": "https://washingtonspirit.com/blog/2016/08/18/washington-spirit-claims-sole-possession-of-top-of-nwsl-table-with-2-1-win-over-houston-dash/"
+    },
+    {
+      "match_id": "475534",
+      "corrected_values": {"match_date": "2017-09-27", "result_available_date": "2017-09-27", "home_goals": 0, "away_goals": 4, "completed": true},
+      "reason": "ESPN retains the August postponed fixture. Use the September 27 makeup match recorded in the club's historical results.",
+      "source_url": "https://www.nccourage.com/news/first-place-nc-courage-travel-to-take-on-the-houston-dash-inthe-nwsl-game-of-the-week-on-lifetime"
+    },
+    {
+      "match_id": "475590",
+      "corrected_values": {"home_goals": 2, "away_goals": 2},
+      "reason": "Feed reports 1-1; contemporary match report records 2-2. Correction also reconciles both teams' final goals for/against.",
+      "source_url": "https://equalizersoccer.com/2017/06/17/kansas-city-seattle-draw-2-2-after-late-drama/"
+    },
+    {
+      "match_id": "601759",
+      "corrected_values": {"home_goals": 3, "away_goals": 0, "result_available_date": "2021-09-16"},
+      "reason": "Feed reports 0-0. Official September 16 ruling awarded Portland a 3-0 forfeit win. Do not make this result available to earlier snapshots.",
+      "source_url": "https://www.nwslsoccer.com/news/nwsl-announces-fines-to-washington-spirit"
+    }
+  ],
+  "points_adjustments": [
+    {
+      "season": 2024, "team_id": "21422", "effective_date": "2024-10-03", "points_delta": -3,
+      "reason": "Angel City salary-cap sanction. Applied to standings points only on/after announcement; not subtracted from recent match form.",
+      "source_url": "https://www.nwslsoccer.com/news/nwsl-announces-disciplinary-action-against-angel-city-fc-for-salary-cap-violation"
+    }
+  ]
+}

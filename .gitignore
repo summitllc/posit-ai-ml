@@ -1,0 +1,20 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Quarto
+/.quarto/
+*_files/
+*_cache/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/

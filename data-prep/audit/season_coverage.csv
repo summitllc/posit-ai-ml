@@ -1,0 +1,11 @@
+season,league_teams,scheduled_games_per_team,playoff_spots,regular_matches_in_dataset,playoff_matches_for_labels,min_games_per_team,max_games_per_team,latest_result_date,snapshot_rows,role
+2016,10,20,4,100,3,20,20,2016-09-25,50,train
+2017,10,24,4,120,3,24,24,2017-10-01,50,train
+2018,9,24,4,108,3,24,24,2018-09-08,45,train
+2019,9,24,4,108,3,24,24,2019-10-12,45,train
+2021,10,24,6,120,5,24,24,2021-10-31,50,train
+2022,12,22,6,132,5,22,22,2022-10-02,60,train
+2023,12,22,6,132,5,22,22,2023-10-15,60,train
+2024,14,26,8,182,7,26,26,2024-11-03,70,train
+2025,14,26,8,182,7,26,26,2025-11-02,70,test
+2026,16,30,8,174,0,21,22,2026-08-31,16,score

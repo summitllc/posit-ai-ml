@@ -1,0 +1,101 @@
+season,team_id,team,made_playoffs,source_url
+2016,15362,Portland Thorns FC,Yes,https://www.espn.com/soccer/match/_/gameId/467303
+2016,15365,Washington Spirit,Yes,https://www.espn.com/soccer/match/_/gameId/467304
+2016,15360,Chicago Red Stars,Yes,https://www.espn.com/soccer/match/_/gameId/467304
+2016,15366,Western New York Flash,Yes,https://www.espn.com/soccer/match/_/gameId/467303
+2016,15363,Seattle Reign FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2016
+2016,15361,FC Kansas City,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2016
+2016,15364,Sky Blue FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2016
+2016,17346,Houston Dash,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2016
+2016,18206,Orlando Pride,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2016
+2016,15359,Boston Breakers,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2016
+2017,15366,North Carolina Courage,Yes,https://www.espn.com/soccer/match/_/gameId/497307
+2017,15362,Portland Thorns FC,Yes,https://www.espn.com/soccer/match/_/gameId/497308
+2017,18206,Orlando Pride,Yes,https://www.espn.com/soccer/match/_/gameId/497308
+2017,15360,Chicago Red Stars,Yes,https://www.espn.com/soccer/match/_/gameId/497307
+2017,15363,Seattle Reign FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2017
+2017,15364,Sky Blue FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2017
+2017,15361,FC Kansas City,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2017
+2017,17346,Houston Dash,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2017
+2017,15359,Boston Breakers,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2017
+2017,15365,Washington Spirit,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2017
+2018,15366,North Carolina Courage,Yes,https://www.espn.com/soccer/match/_/gameId/527068
+2018,15362,Portland Thorns FC,Yes,https://www.espn.com/soccer/match/_/gameId/526950
+2018,15363,Seattle Reign FC,Yes,https://www.espn.com/soccer/match/_/gameId/526950
+2018,15360,Chicago Red Stars,Yes,https://www.espn.com/soccer/match/_/gameId/527068
+2018,19141,Utah Royals,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2018
+2018,17346,Houston Dash,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2018
+2018,18206,Orlando Pride,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2018
+2018,15365,Washington Spirit,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2018
+2018,15364,Sky Blue FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2018
+2019,15366,North Carolina Courage,Yes,https://www.espn.com/soccer/match/_/gameId/558163
+2019,15360,Chicago Red Stars,Yes,https://www.espn.com/soccer/match/_/gameId/558162
+2019,15362,Portland Thorns FC,Yes,https://www.espn.com/soccer/match/_/gameId/558162
+2019,15363,Reign FC,Yes,https://www.espn.com/soccer/match/_/gameId/558163
+2019,15365,Washington Spirit,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2019
+2019,19141,Utah Royals,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2019
+2019,17346,Houston Dash,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2019
+2019,15364,Sky Blue FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2019
+2019,18206,Orlando Pride,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2019
+2021,15362,Portland Thorns FC,Yes,https://www.espn.com/soccer/match/_/gameId/621412
+2021,15363,OL Reign,Yes,https://www.espn.com/soccer/match/_/gameId/621413
+2021,15365,Washington Spirit,Yes,https://www.espn.com/soccer/match/_/gameId/621414
+2021,15360,Chicago Red Stars,Yes,https://www.espn.com/soccer/match/_/gameId/621415
+2021,15364,Gotham FC,Yes,https://www.espn.com/soccer/match/_/gameId/621415
+2021,15366,North Carolina Courage,Yes,https://www.espn.com/soccer/match/_/gameId/621414
+2021,17346,Houston Dash,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2021
+2021,18206,Orlando Pride,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2021
+2021,20905,Racing Louisville FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2021
+2021,20907,Kansas City NWSL,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2021
+2022,15363,OL Reign,Yes,https://www.espn.com/soccer/match/_/gameId/654411
+2022,15362,Portland Thorns FC,Yes,https://www.espn.com/soccer/match/_/gameId/654410
+2022,21423,San Diego Wave FC,Yes,https://www.espn.com/soccer/match/_/gameId/654409
+2022,17346,Houston Dash,Yes,https://www.espn.com/soccer/match/_/gameId/654408
+2022,20907,Kansas City Current,Yes,https://www.espn.com/soccer/match/_/gameId/654408
+2022,15360,Chicago Red Stars,Yes,https://www.espn.com/soccer/match/_/gameId/654409
+2022,15366,North Carolina Courage,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2022
+2022,21422,Angel City FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2022
+2022,20905,Racing Louisville FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2022
+2022,18206,Orlando Pride,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2022
+2022,15365,Washington Spirit,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2022
+2022,15364,Gotham FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2022
+2023,21423,San Diego Wave FC,Yes,https://www.espn.com/soccer/match/_/gameId/689364
+2023,15362,Portland Thorns FC,Yes,https://www.espn.com/soccer/match/_/gameId/689363
+2023,15366,North Carolina Courage,Yes,https://www.espn.com/soccer/match/_/gameId/689362
+2023,15363,OL Reign,Yes,https://www.espn.com/soccer/match/_/gameId/689361
+2023,21422,Angel City FC,Yes,https://www.espn.com/soccer/match/_/gameId/689361
+2023,15364,Gotham FC,Yes,https://www.espn.com/soccer/match/_/gameId/689362
+2023,18206,Orlando Pride,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2023
+2023,15365,Washington Spirit,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2023
+2023,20905,Racing Louisville FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2023
+2023,17346,Houston Dash,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2023
+2023,20907,Kansas City Current,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2023
+2023,15360,Chicago Red Stars,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2023
+2024,18206,Orlando Pride,Yes,https://www.espn.com/soccer/match/_/gameId/712960
+2024,15365,Washington Spirit,Yes,https://www.espn.com/soccer/match/_/gameId/712959
+2024,15364,Gotham FC,Yes,https://www.espn.com/soccer/match/_/gameId/712958
+2024,20907,Kansas City Current,Yes,https://www.espn.com/soccer/match/_/gameId/712957
+2024,15366,North Carolina Courage,Yes,https://www.espn.com/soccer/match/_/gameId/712957
+2024,15362,Portland Thorns FC,Yes,https://www.espn.com/soccer/match/_/gameId/712958
+2024,22187,Bay FC,Yes,https://www.espn.com/soccer/match/_/gameId/712959
+2024,15360,Chicago Red Stars,Yes,https://www.espn.com/soccer/match/_/gameId/712960
+2024,20905,Racing Louisville FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2024
+2024,21423,San Diego Wave FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2024
+2024,19141,Utah Royals,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2024
+2024,21422,Angel City FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2024
+2024,15363,Seattle Reign FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2024
+2024,17346,Houston Dash,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2024
+2025,20907,Kansas City Current,Yes,https://www.espn.com/soccer/match/_/gameId/760606
+2025,15365,Washington Spirit,Yes,https://www.espn.com/soccer/match/_/gameId/760609
+2025,15362,Portland Thorns FC,Yes,https://www.espn.com/soccer/match/_/gameId/760607
+2025,18206,Orlando Pride,Yes,https://www.espn.com/soccer/match/_/gameId/760608
+2025,15363,Seattle Reign FC,Yes,https://www.espn.com/soccer/match/_/gameId/760608
+2025,21423,San Diego Wave FC,Yes,https://www.espn.com/soccer/match/_/gameId/760607
+2025,20905,Racing Louisville FC,Yes,https://www.espn.com/soccer/match/_/gameId/760609
+2025,15364,Gotham FC,Yes,https://www.espn.com/soccer/match/_/gameId/760606
+2025,15366,North Carolina Courage,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2025
+2025,17346,Houston Dash,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2025
+2025,21422,Angel City FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2025
+2025,19141,Utah Royals,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2025
+2025,22187,Bay FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2025
+2025,15360,Chicago Stars FC,No,https://site.web.api.espn.com/apis/v2/sports/soccer/usa.nwsl/standings?season=2025

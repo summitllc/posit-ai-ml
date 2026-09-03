@@ -1,0 +1,11 @@
+[
+  "season_pct",
+  "points_per_game",
+  "win_pct",
+  "goal_diff_per_game",
+  "last_5_points",
+  "last_5_goal_diff",
+  "points_rank_pct",
+  "points_gap_to_cutline",
+  "playoff_share"
+]

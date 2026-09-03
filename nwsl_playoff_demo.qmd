@@ -1,0 +1,371 @@
+---
+title: "AI/ML SOS IDK"
+subtitle: "A Beginner-Friendly Machine Learning Workflow in R"
+format:
+  html:
+    toc: true
+    toc-title: "On deck"
+    toc-location: right
+    code-fold: false
+    code-copy: true
+    code-tools: false
+    embed-resources: true
+    theme: cosmo
+    css: styles.css
+    fig-align: center
+    fig-width: 8
+    fig-height: 5
+---
+
+## Can we predict the NWSL playoffs? &#9917;
+
+Before an NWSL season is over, can we predict which teams will make the playoffs?
+
+We're going to answer that question with a random forest.
+
+But the model isn't really the point.
+
+**The workflow is.**
+
+> The algorithm can be interesting. The workflow should be boring.
+
+```{r}
+#| label: setup
+#| message: false
+#| warning: false
+
+library(tidymodels)
+library(readr)
+library(dplyr)
+library(ggplot2)
+library(knitr)
+
+set.seed(17) # iykyk
+```
+
+## 1. Load the data
+
+We've already separated our data chronologically:
+
+- **Training:** 2016–2024
+- **Testing:** 2025
+- **Current season:** 2026
+
+```{r}
+#| label: load-data
+
+train <- read_csv("data/training_data.csv", show_col_types = FALSE)
+test <- read_csv("data/test_data.csv", show_col_types = FALSE)
+current <- read_csv("data/current_2026.csv", show_col_types = FALSE)
+```
+
+
+## 2. Take a look
+
+A quick sanity check before we build anything: how big are the datasets, and how balanced is the outcome we're trying to predict?
+
+```{r}
+#| label: inspect-data
+
+tibble(
+  Dataset = c("Training (2016–2024)", "Testing (2025)", "Current (2026)"),
+  Rows = c(nrow(train), nrow(test), nrow(current)),
+  `Team-seasons` = c(
+    n_distinct(train$team_season_id),
+    n_distinct(test$team_season_id),
+    n_distinct(current$team_season_id)
+  )
+) |>
+  kable(align = "lrr")
+```
+
+Each row is a snapshot of one team at one point in a season. Snapshots are taken at 20%, 40%, 60%, and 80% of the way through the schedule, so a single team-season shows up multiple times in the data.
+
+```{r}
+#| label: inspect-outcome
+
+train |>
+  count(made_playoffs, name = "Snapshots") |>
+  kable(
+    align = "lr",
+    caption = "Training label balance"
+  )
+```
+
+Roughly balanced — no rare-class problem to worry about.
+
+## 3. Preprocess with a recipe
+
+First, we'll make sure our outcome is treated as a categorical variable.
+
+```{r}
+train <- train |>
+  mutate(made_playoffs = factor(made_playoffs, levels = c("Yes", "No")))
+
+test <- test |>
+  mutate(made_playoffs = factor(made_playoffs, levels = c("Yes", "No")))
+```
+
+Next we'll define the predictors and transformations using the **recipes** package. Some features are created inside the recipe so the same transformations are applied consistently to future data.
+
+<!-- A recipe is a reproducible set of instructions for preparing data for a model. Why not dplyr? Then you have to remember to perform exactly the same transformations on the test data and the 2026 data. With a recipe, those same steps are automatically applied to new data later. -->
+
+```{r}
+playoff_recipe <- recipe(
+  made_playoffs ~
+    points +
+    wins +
+    goal_diff +
+    games_played +
+    last_5_points +
+    last_5_goal_diff +
+    points_rank_pct +
+    points_gap_to_cutline +
+    playoff_share +
+    season_pct,
+  data = train
+) |>
+  step_mutate(
+    points_per_game = points / games_played,
+    win_pct = wins / games_played,
+    goal_diff_per_game = goal_diff / games_played
+  ) |>
+  step_rm(points, wins, goal_diff, games_played) |>
+  step_zv(all_predictors())
+```
+
+
+## 4. Specify the model
+
+Now we'll tell tidymodels what kind of model we want to fit. This is the **parsnip** part of tidymodels — a single, consistent interface for describing models regardless of which engine ends up running them.
+
+```{r}
+rf_spec <- rand_forest(
+  trees = 500
+) |>
+  set_engine("ranger") |>
+  set_mode("classification")
+```
+
+<!-- We're fitting a random forest with 500 trees, using ranger as the engine, and classification because our outcome is yes or no. The model specification describes what we want to fit, but it does not fit anything yet. -->
+
+
+## 5. Build the workflow
+
+A **workflows** object bundles the preprocessing steps and model specification together.
+
+```{r}
+playoff_workflow <- workflow() |>
+  add_recipe(playoff_recipe) |>
+  add_model(rf_spec)
+```
+
+<!-- This is the key tidymodels idea: preprocessing and modeling travel together. -->
+
+
+## 6. Fit the model
+
+Now we can fit the entire workflow to our historical training data.
+
+```{r}
+playoff_fit <- playoff_workflow |>
+  fit(data = train)
+```
+
+
+## 7. Evaluate on 2025
+
+Now we'll test the fitted workflow on the held-out 2025 season.
+
+We'll make our prediction 60% of the way through the season — early enough that the playoff field isn't completely settled yet.
+
+```{r}
+#| label: evaluate-2025
+
+test_60 <- test |>
+  filter(checkpoint_pct == 0.6)
+
+test_predictions <- predict(
+  playoff_fit,
+  new_data = test_60,
+  type = "prob"
+) |>
+  bind_cols(
+    predict(playoff_fit, new_data = test_60)
+  ) |>
+  bind_cols(
+    test_60 |>
+      select(team, made_playoffs)
+  ) |>
+  arrange(desc(.pred_Yes))
+```
+
+The **RF playoff score** shows how strongly the random forest leans toward a playoff outcome. The class prediction just applies a 50% cutoff to that score.
+
+```{r}
+#| label: evaluate-2025-table
+
+test_predictions |>
+  transmute(
+    Team = team,
+    Actual = made_playoffs,
+    Predicted = .pred_class,
+    `RF playoff score` = scales::percent(.pred_Yes, accuracy = 1)
+  ) |>
+  kable(align = "lccr")
+```
+
+```{r}
+#| label: evaluate-2025-metrics
+
+accuracy(
+  test_predictions,
+  truth = made_playoffs,
+  estimate = .pred_class
+) |>
+  transmute(Metric = .metric, Value = scales::percent(.estimate, accuracy = 1)) |>
+  kable(align = "lr")
+
+conf_mat(
+  test_predictions,
+  truth = made_playoffs,
+  estimate = .pred_class
+)
+```
+
+Yes, that says **100%**. No, we have not solved soccer. This is one held-out season at one checkpoint — 14 teams, all classified correctly. Give the model a whole different league, a different year, or an earlier checkpoint and it will start missing. What we can say is that at the 60% mark of the 2025 NWSL season, the workflow got every call right.
+
+
+## 8. Refit with all historical data
+
+We held out 2025 so we could evaluate our model on data it had never seen.
+
+Now that we've done that, we'll refit the same workflow using all of our completed historical seasons.
+
+```{r}
+#| label: refit-final
+
+all_history <- bind_rows(train, test)
+
+final_fit <- playoff_workflow |>
+  fit(data = all_history)
+```
+
+<!-- Nothing about our workflow changed. We're simply giving it more historical data to learn from. -->
+
+
+## 9. Predict the 2026 playoffs
+
+Finally, we'll apply our fitted workflow to the 2026 season as it stands today.
+
+```{r}
+#| label: predict-2026
+
+current_predictions <- predict(
+  final_fit,
+  new_data = current,
+  type = "prob"
+) |>
+  bind_cols(
+    predict(final_fit, new_data = current)
+  ) |>
+  bind_cols(
+    current |>
+      select(team)
+  ) |>
+  arrange(desc(.pred_Yes))
+```
+
+> **A note on the numbers:** the RF playoff score shows how strongly the random forest leans toward a playoff outcome. It's a model score, not calibrated real-world playoff odds.
+
+```{r}
+#| label: predict-2026-table
+
+current_predictions |>
+  transmute(
+    Team = team,
+    `RF playoff score` = scales::percent(.pred_Yes, accuracy = 1)
+  ) |>
+  kable(align = "lr")
+```
+
+Washington Spirit lands around **98%** — basically every tree in the forest is landing on "playoffs." The model is very strongly Team Playoffs for Washington. Seattle sits around **58%**, still leaning yes but much more of a coin-flip.
+
+```{r}
+#| label: fig-playoff-scores
+#| fig-cap: "Random forest playoff scores for the 2026 NWSL season. Model scores, not calibrated playoff odds."
+#| fig-width: 8
+#| fig-height: 6
+
+spirit_green <- "#003C34"  # deep teal
+lemon_venom  <- "#E8F82C"  # vibrant yellow, Washington highlight
+spirit_black <- "#0A0A0A"
+muted_bar    <- "#B8BEC2"  # quiet gray for the rest of the league
+
+playoff_scores <- current_predictions |>
+  transmute(
+    team,
+    playoff_score = .pred_Yes,
+    is_spirit = team == "Washington Spirit"
+  ) |>
+  arrange(playoff_score) |>
+  mutate(team = factor(team, levels = team))
+
+ggplot(
+  playoff_scores,
+  aes(x = playoff_score, y = team, fill = is_spirit, color = is_spirit)
+) +
+  geom_col(width = 0.72, linewidth = 0.6) +
+  geom_vline(
+    xintercept = 0.5,
+    linetype = "dashed",
+    color = "#9CA3AF",
+    linewidth = 0.5
+  ) +
+  geom_text(
+    aes(label = scales::percent(playoff_score, accuracy = 1)),
+    hjust = -0.15,
+    size = 3.6,
+    color = spirit_black
+  ) +
+  scale_x_continuous(
+    labels = scales::percent_format(accuracy = 1),
+    limits = c(0, 1.08),
+    breaks = seq(0, 1, 0.25),
+    expand = expansion(mult = c(0, 0.02))
+  ) +
+  scale_fill_manual(
+    values = c(`TRUE` = lemon_venom, `FALSE` = muted_bar)
+  ) +
+  scale_color_manual(
+    values = c(`TRUE` = spirit_green, `FALSE` = muted_bar)
+  ) +
+  labs(
+    title = "So... who's making the playoffs?",
+    subtitle = "Random forest playoff scores for the 2026 NWSL season",
+    caption = "Model scores, not calibrated real-world playoff odds.",
+    x = NULL,
+    y = NULL
+  ) +
+  theme_minimal(base_size = 12) +
+  theme(
+    legend.position = "none",
+    plot.title = element_text(face = "bold", color = spirit_black, size = 16),
+    plot.subtitle = element_text(color = spirit_green, margin = margin(b = 12)),
+    plot.caption = element_text(
+      color = "#6B7280",
+      hjust = 0,
+      margin = margin(t = 10),
+      face = "italic"
+    ),
+    axis.text.y = element_text(color = spirit_black),
+    axis.text.x = element_text(color = "#6B7280"),
+    panel.grid.major.y = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_line(color = "#EAEAEA"),
+    plot.margin = margin(10, 20, 10, 10)
+  )
+```
+
+<!-- We just built a random forest model and predicted the 2026 NWSL playoffs. But notice what most of our code was actually about: structuring the data, defining preprocessing, keeping the model and preprocessing together, evaluating on held-out data, and applying the workflow to new data. The random forest itself was three lines of code. That's the point. The algorithm can be interesting. The workflow should be boring. -->
+

@@ -1,0 +1,274 @@
+/* -------------------------------------------------------------------------
+   AI/ML SOS IDK — subtle Washington Spirit / soccer-inspired theme
+   Official-ish palette:
+     --spirit-green:      #003C34   (deep teal, primary brand color)
+     --spirit-green-dark: #002520
+     --green-strike:      #00A651   (secondary bright green)
+     --lemon-venom:       #E8F82C   (vibrant yellow accent)
+     --spirit-black:      #0A0A0A
+     --spirit-gray:       #6B7280
+     --rule:              #E5E7EB   (borders / dividers)
+     --paper:             #FBFBF7   (warm white background)
+     --ink:               #111318   (near-black body copy)
+   ------------------------------------------------------------------------- */
+
+:root {
+  --spirit-green: #003C34;
+  --spirit-green-dark: #002520;
+  --green-strike: #00A651;
+  --lemon-venom: #E8F82C;
+  --lemon-venom-soft: #FBFFC9;
+  --spirit-black: #0A0A0A;
+  --spirit-gray: #6B7280;
+  --rule: #E5E7EB;
+  --paper: #FBFBF7;
+  --ink: #111318;
+  --code-bg: #F1F4EF;
+}
+
+/* ---------- Base ---------- */
+
+body {
+  background-color: var(--paper);
+  color: var(--ink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  font-size: 17px;
+  line-height: 1.6;
+}
+
+main.content, .quarto-title-block, #title-block-header {
+  max-width: 860px;
+}
+
+a { color: var(--spirit-green); }
+a:hover { color: var(--green-strike); text-decoration: underline; }
+
+/* ---------- Title block ---------- */
+
+#title-block-header {
+  background: var(--spirit-green);
+  color: #fff;
+  padding: 1.6rem 1.8rem 1.4rem;
+  border-radius: 6px;
+  border-top: 6px solid var(--lemon-venom);
+  margin-bottom: 2rem;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+}
+
+#title-block-header .title {
+  color: #fff;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  border-bottom: none;
+  margin: 0 0 0.35em;
+  padding: 0;
+}
+
+#title-block-header .subtitle {
+  color: var(--lemon-venom);
+  font-weight: 500;
+  font-style: italic;
+  margin: 0;
+}
+
+/* ---------- Headings ---------- */
+
+h1, h2, h3, h4 {
+  color: var(--spirit-black);
+  font-weight: 700;
+  letter-spacing: -0.005em;
+}
+
+h2 {
+  margin-top: 2.4rem;
+  padding: 0.15rem 0 0.35rem;
+  border-bottom: 3px solid var(--lemon-venom);
+  color: var(--spirit-green);
+}
+
+/* Numbered section headings: keep the number crisp, and add a subtle left accent */
+h2::first-letter {
+  color: var(--spirit-black);
+}
+
+h3 { margin-top: 1.5rem; color: var(--spirit-green); }
+
+/* ---------- Body text ---------- */
+
+p { margin: 0.6rem 0 1rem; }
+
+strong { color: var(--spirit-green); }
+
+blockquote {
+  border-left: 6px solid var(--lemon-venom);
+  background: var(--lemon-venom-soft);
+  color: var(--spirit-black);
+  padding: 0.9rem 1.1rem;
+  margin: 1.2rem 0;
+  border-radius: 0 6px 6px 0;
+  font-weight: 500;
+  font-size: 1.02em;
+}
+
+/* ---------- Code ---------- */
+
+pre, code {
+  font-family: "JetBrains Mono", "Fira Code", ui-monospace,
+    SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 14.5px;
+}
+
+/* Inline code */
+p code, li code, td code {
+  background: var(--code-bg);
+  color: var(--spirit-green-dark);
+  padding: 0.05em 0.35em;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+
+/* Code blocks */
+div.sourceCode, pre.sourceCode {
+  background-color: #FDFDF6 !important;
+  border: 1px solid var(--rule);
+  border-left: 4px solid var(--lemon-venom);
+  border-radius: 6px;
+  padding: 0.6rem 0.9rem;
+  overflow-x: auto;
+  box-shadow: 0 1px 0 rgba(0,60,52,0.04);
+}
+
+pre.sourceCode code { background: transparent; color: var(--ink); }
+
+/* Copy button */
+.code-copy-button { color: var(--spirit-gray); }
+.code-copy-button:hover { color: var(--spirit-green); }
+
+/* R output blocks */
+pre:not(.sourceCode) {
+  background: #F6F6F0;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  padding: 0.6rem 0.8rem;
+  color: var(--ink);
+  font-size: 13.5px;
+  overflow-x: auto;
+}
+
+/* ---------- Tables ---------- */
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1rem 0 1.4rem;
+  font-size: 15px;
+  background: #fff;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+thead {
+  background: var(--spirit-green);
+  color: #fff;
+}
+
+thead th {
+  padding: 0.55rem 0.75rem;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+tbody td, tbody th {
+  padding: 0.5rem 0.75rem;
+  border-top: 1px solid var(--rule);
+}
+
+tbody tr:nth-child(even) { background: #F7FAF8; }
+tbody tr:hover { background: #FBFFD9; }
+
+/* Quarto kable caption */
+caption {
+  caption-side: top;
+  text-align: left;
+  color: var(--spirit-gray);
+  font-style: italic;
+  padding: 0 0 0.4rem;
+}
+
+/* ---------- Callouts ---------- */
+
+div.callout {
+  border-radius: 6px;
+  border-left-width: 4px;
+  margin: 1.2rem 0;
+}
+
+div.callout-note {
+  border-left-color: var(--spirit-green) !important;
+  background: #F1F7F5 !important;
+}
+
+div.callout-tip {
+  border-left-color: var(--lemon-venom) !important;
+  background: var(--lemon-venom-soft) !important;
+}
+
+div.callout-important, div.callout-warning {
+  border-left-color: var(--green-strike) !important;
+  background: #F0FBF3 !important;
+}
+
+.callout-title { color: var(--spirit-green); font-weight: 700; }
+
+/* ---------- Table of contents ---------- */
+
+#TOC, nav[role="doc-toc"] {
+  border-left: 2px solid var(--rule);
+  padding-left: 1rem;
+  font-size: 14px;
+}
+
+nav[role="doc-toc"] > h2,
+#TOC .toc-title {
+  font-size: 0.85rem !important;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--spirit-green) !important;
+  font-weight: 700 !important;
+  border-bottom: none !important;
+  margin-top: 0;
+}
+
+nav[role="doc-toc"] ul { list-style: none; padding-left: 0.5rem; }
+nav[role="doc-toc"] a {
+  color: var(--spirit-gray);
+  text-decoration: none;
+  display: block;
+  padding: 0.15rem 0;
+  border-left: 2px solid transparent;
+  padding-left: 0.6rem;
+}
+nav[role="doc-toc"] a:hover { color: var(--spirit-black); }
+nav[role="doc-toc"] a.active {
+  color: var(--spirit-green);
+  font-weight: 600;
+  border-left-color: var(--lemon-venom);
+}
+
+/* ---------- Figures ---------- */
+
+figure, .quarto-figure { margin: 1.4rem 0; }
+
+figcaption, .figure-caption {
+  color: var(--spirit-gray);
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 0.4rem;
+}
+
+/* ---------- Small personality touch ---------- */
+
+.spirit-accent { color: var(--spirit-green); font-weight: 700; }

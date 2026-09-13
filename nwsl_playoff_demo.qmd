@@ -40,7 +40,7 @@ library(dplyr)
 library(ggplot2)
 library(knitr)
 
-set.seed(17) # iykyk
+set.seed(20260914) 
 ```
 
 ## 1. Load the data
@@ -56,7 +56,7 @@ We've already separated our data chronologically:
 
 train <- read_csv("data/training_data.csv", show_col_types = FALSE)
 test <- read_csv("data/test_data.csv", show_col_types = FALSE)
-current <- read_csv("data/current_2026.csv", show_col_types = FALSE)
+current <- read_csv("data/current_2026_60.csv", show_col_types = FALSE)
 ```
 
 
@@ -93,6 +93,34 @@ train |>
 ```
 
 Roughly balanced — no rare-class problem to worry about.
+
+Here is a small snapshot of the modeling data. Each row is one team's state at a different point in the season; the columns show a few predictors and the outcome we want to predict.
+
+<!-- Presentation-only table; remove this chunk before creating the code handout. -->
+
+```{r}
+#| label: data-snapshot
+
+train |>
+  filter(
+    season == 2016,
+    team %in% c("Portland Thorns FC", "Seattle Reign FC")
+  ) |>
+  arrange(team, checkpoint_pct) |>
+  transmute(
+    Season = season,
+    Team = team,
+    `Season completed` = scales::percent(checkpoint_pct, accuracy = 1),
+    `Points per game` = round(points_per_game, 2),
+    Wins = wins,
+    `Made playoffs` = made_playoffs
+  ) |>
+  kable(
+    align = "l",
+    caption = "Example rows from the training data",
+    table.attr = 'class="data-snapshot"'
+  )
+```
 
 ## 3. Preprocess with a recipe
 
@@ -289,7 +317,7 @@ current_predictions |>
   kable(align = "lr")
 ```
 
-Washington Spirit lands around **98%** — basically every tree in the forest is landing on "playoffs." The model is very strongly Team Playoffs for Washington. Seattle sits around **58%**, still leaning yes but much more of a coin-flip.
+Washington Spirit lands around **99%** — basically every tree in the forest is landing on "playoffs." The model is very strongly Team Playoffs for Washington. Orlando sits around **47%**, leaning no but much more of a coin-flip.
 
 ```{r}
 #| label: fig-playoff-scores
